@@ -10,6 +10,7 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
      <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -21,7 +22,7 @@
           <input type="text" placeholder="Search for a city" autofocus>
           <button type="button" class="btn btn-outline-secondary">Search</button>
         </form>
-      <h1>Kiev</h1>
+      <h1 id="city"></h1>
       <ul>
         <h2>
           Friday 14:30
@@ -36,21 +37,19 @@
       <div class="col-md-4">
         <div class="weather-temperature">
 
-<strong>16</strong>
+<strong id="temperature"></strong>
 <span class="units">°C / <a href="#">F</a></span>
       </div>
       </div> 
       
         <div class="col-md-6">
           <ul>
+            <li id="description"></li>
             <li>
-              Clouds
+              Humidity: <span id="humidity"></span>%
             </li>
             <li>
-              Humidity: 91%
-            </li>
-            <li>
-              Wind: 1.51 km/h
+              Wind: <span id="wind"></span> km/h
             </li>
           </ul>
         </div>
