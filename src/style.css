@@ -53,6 +53,9 @@ li {
   font-weight: 100px;
   line-height: 19px;
 }
+a {
+  text-decoration: none;
+}
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
@@ -63,6 +66,11 @@ li {
   font-size: 16px;
   position: relative;
   top: -34px;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
 }
 img {
   width: 80px;
