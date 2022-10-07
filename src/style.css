@@ -72,6 +72,18 @@ a {
   cursor: default;
   text-decoration: none;
 }
-img {
-  width: 80px;
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: #565454;
+}
+.weather-forecast-temp {
+  font-size: 13px;
+}
+.weather-forecast-temp-min {
+  opacity: 0.5;
 }
