@@ -1,5 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(226, 240, 254) 0%,
+    rgb(255, 247, 228) 90%
+  );
 }
 
 .weather-app {
@@ -14,7 +19,7 @@ body {
   border-radius: 5px;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
 }
 button {
@@ -82,6 +87,7 @@ a {
   color: #565454;
 }
 .weather-forecast-temp {
+  color: white;
   font-size: 13px;
 }
 .weather-forecast-temp-min {
