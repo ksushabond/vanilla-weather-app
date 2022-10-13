@@ -60,6 +60,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: rgb(33, 33, 33);
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
@@ -71,11 +72,8 @@ a {
   font-size: 16px;
   position: relative;
   top: -34px;
-}
-.weather-temperature .active {
-  color: rgb(33, 33, 33);
+
   cursor: default;
-  text-decoration: none;
 }
 
 .weather-forecast {
